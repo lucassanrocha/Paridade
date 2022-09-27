@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Paridade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Paridade</h1>   
+ </header>
+    <section>
+        <div>
+            <p>DOLFUT: <input type="number" name="dolar futuro" id="dolfut" ></p>
+            <p>DOLCOM: <input type="number" name="dolar comecial" id="dolcom"></p>
+            <p>Di: <input type="number" name="di" id="juros"></p>
+            <p>Dias para Vencimento: <input type="number" name="vencimento" id="date"></p>
+            <p>Variação do DX: <input type="number" name="variacao" id="dx"></p>
+            <input type="button" value="Calcular" onclick="Calculo()">
+        </div>
+        <div id="res">
+          <p id="jt"></p>
+          <p id="mx"></p>
+          <p id="abertura"></p>
+          <p id="mi"></p>
+          <p id="taxa"></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; LUKAS ROCHA</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
